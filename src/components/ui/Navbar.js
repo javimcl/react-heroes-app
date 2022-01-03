@@ -33,15 +33,7 @@ export const Navbar = () => {
                         to="/dc"
                     >
                         DC
-                    </NavLink>
-                    <NavLink 
-                        
-                        className={ ({isActive}) =>"nav-item nav-link" + (isActive ? 'active':'')} 
-                        
-                        to="/login"
-                    >
-                        Login
-                    </NavLink>
+                    </NavLink>                   
                 </div>
             </div>
 
